@@ -1,4 +1,4 @@
-FROM openjdk:17
+FROM 330810004472.dkr.ecr.us-east-1.amazonaws.com/openjdk:11
 WORKDIR /usr/src/ab2d-api
 ADD target/simplespringapp-*-SNAPSHOT*.jar /usr/src/ab2d-api/api.jar
 
